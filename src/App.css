@@ -1,38 +1,97 @@
-.App {
-  text-align: center;
+body{
+    background-color:#eeeeee;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header {
+    background: rgb(0,0,0,0);
+    color: rgb(53, 53, 53);
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.main {
+    background: #ffffff;
+    padding:20px 20px 20px 20px;
+    margin-top:30px;
+    position: center;
+    border-radius: 25px;
+    width: 600px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 
+        0 2px 4px 0 rgba(63, 63, 63, 0.2), 
+        0 6px 10px 0 rgba(63, 63, 63, 0.2);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.add-todo {
+    background: #eeeeee;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px
 }
 
-.App-link {
-  color: #61dafb;
+.form-control {
+    background:rgba(0, 0, 0, 0);
+    border:none;
+    padding: 5px 5px 5px 5px;
+    width: 90%;
+    margin-left:2px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn {
+    cursor: pointer;
+}
+
+.form-btn {
+    float: right;
+    border-radius: 10px;
+    border: none;
+    background: #3553fc;
+    color: #fff;
+    margin-left:5px;
+    padding: 5px 10px 5px 10px;
+}
+
+.form-btn:hover {
+    background: #000a96;;
+}
+
+.delete-btn {
+	background: #ff0000;
+	color: #fff;
+	border: none;
+	padding: 3px 7px;
+	border-radius: 50px;
+	float: right;
+}
+
+.delete-btn:hover {
+	background: #970000;
+}
+
+.todo {
+    background-color: rgb(0,0,0,0);
+    border-top: 1px solid #ccc;
+    margin: 20px 10px 20px 10px;
+    color: rgb(50, 50, 50);
+}
+
+.link {
+    color: #5c5c5c;
+    text-decoration: none; 
+}
+
+.about{
+    color: #3553fc;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+    margin-bottom: 90px;  
+    text-align: center;
 }
